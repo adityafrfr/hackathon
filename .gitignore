@@ -1,0 +1,23 @@
+# TensorFlow logs and checkpoints
+tf_runs/
+*.keras
+*.h5
+*.ckpt
+*.tflite
+
+# Dataset
+dataset/
+*.jpg
+*.png
+*.txt
+*.yaml
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System / IDE files
+.DS_Store
+.vscode/
+.idea/
+
