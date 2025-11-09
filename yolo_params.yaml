@@ -1,0 +1,5 @@
+train: /home/adifr/Documents/Code/Python/Tf/dataset/train #path to training folder(s)
+val: /home/adifr/Documents/Code/Python/Tf/dataset/val #path to validation folder(s)
+test: /home/adifr/Documents/Code/Python/Tf/dataset/test #path to testing images
+nc: 7
+names: ['OxygenTank', 'NitrogenTank', 'FirstAidBox', 'FireAlarm', 'SafetySwitchPanel', 'EmergencyPhone', 'FireExtinguisher']                                         

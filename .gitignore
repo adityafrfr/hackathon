@@ -1,23 +1,28 @@
-# TensorFlow logs and checkpoints
-tf_runs/
-*.keras
-*.h5
-*.ckpt
-*.tflite
-
-# Dataset
+# Ignore dataset folder
 dataset/
-*.jpg
-*.png
-*.txt
-*.yaml
 
-# Python cache
+# Ignore temporary or large files
+*.zip
+*.pt
+*.weights
+*.ckpt
+
+# Ignore Python cache and logs
 __pycache__/
 *.pyc
+*.pyo
+*.log
 
-# System / IDE files
-.DS_Store
+# Ignore runtime folders
+runs/
+tf_runs/
+predictions/
+
+# VSCode / PyCharm project files
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
 
